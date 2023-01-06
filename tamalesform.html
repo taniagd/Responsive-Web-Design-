@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cotizaciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/tamalesform.css" />
+</head>
+
+<body>
+    <h1 id="title"> Cotizaciones</h1>
+    <p id="description"> Ayúdanos a contestar este formulario para poder realizar la cotización de tu pedido para
+        eventos especiales</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="María López"
+                    required></input></label>
+            <label id="email-label" for="email">Email: <input id="email" type="email"
+                    placeholder="maria.lopez@gmail.com" required></input></label>
+            <label id="number-label" for="number"> Número de tamales requeridos <input id="number" type="number"
+                    min="20" max="500" placeholder="75" required></input></label>
+            <label> ¿En qué colonia será el evento?
+                <select id="dropdown">
+                    <option>(selecciona una opción)</option>
+                    <option>Acuitlapilco</option>
+                    <option>Santa María Nativitas</option>
+                    <option>Ciudad Alegre</option>
+                    <option>Reynosa Tamaulipas</option>
+                    <option>San Marcos</option>
+                    <option>San Rafael</option>
+                </select>
+            </label>
+            <label for="sucursal-delivery"> Recoger en sucursal <input id="suscursal-delivery" class="type-delivery"
+                    type="radio" name="type-of-delivery" value="1"></input></label>
+            <label for="delivery"> Entrega a domicilio <input id="delivery" class="type-delivery" type="radio"
+                    name="type-of-delivery" value="2"></input></label>
+            <label> Acepto que se me contacte por vía correo electrónico y télefono celular <input type="checkbox"
+                    value="contact"></input></label>
+            <label>He leído y acepto los términos y condiciones<input type="checkbox"
+                    value="terms-and-conditions"></input></label>
+            <label for="comments"> Si tiene algún comentario adicional, por favor, háganoslo saber: <textarea
+                    id="comments" name="comments" rows="6" cols="40"></textarea></label>
+            <input id="submit" type="submit" value="submit" />
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

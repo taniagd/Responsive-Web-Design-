@@ -1,0 +1,47 @@
+body{
+    background-image:  linear-gradient( 130deg, rgba(50, 58, 138, 0.3), rgba(136, 136, 206, 0.3)), url(https://dam.cocinafacil.com.mx/wp-content/uploads/2020/01/receta-facil-de-tamales.jpg);
+    background-size:cover;
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
+    }
+    
+    #title{
+      font-family:Tahoma;
+    }
+    
+    #title, #description{
+      display:block;
+      text-align:center;
+      padding:1.5rem;
+      margin:1em;
+    }
+    
+    form {
+      width: 80vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+    }
+    
+    fieldset{
+      text-align:center;
+      border: double;
+    }
+    
+    
+    label {
+      margin: 0.6rem;
+    }
+    
+    input, #dropdown{
+      display:block;
+      margin: 0.5rem 6rem;
+      width: 64%;
+      min-height: 2.2em;
+    }
+    
+    .type-delivery{
+      display:block;
+      margin: 0;
+    }
